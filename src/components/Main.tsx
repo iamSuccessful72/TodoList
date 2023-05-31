@@ -40,7 +40,7 @@ function Main() {
     <main className="p-2">
       <section className="lg:w-3/4 mx-auto 2xl:w-2/4" role="region">
         <Form />
-        {filteredTodo.length ? (
+        {todoList.length ? (
           <div>
             <FilterTodo />
             {filteredTodo.map((todo) => (
